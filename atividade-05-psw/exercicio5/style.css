@@ -1,0 +1,60 @@
+.cabecalho {
+    background-color: #3300ff;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 4px;
+}
+
+.linhas .info {
+    text-align: center;
+}
+
+.aprovado {
+    color: green;
+}
+
+.recuperacao {
+    color: orange;
+}
+
+.reprovado {
+    color: red;
+}
+
+.aprovado:hover {
+    background-color: lightgreen;
+    border-radius: 4px;
+}
+
+.recuperacao:hover {
+    background-color: lightyellow;
+    border-radius: 4px;
+}
+
+.reprovado:hover {
+    background-color: lightcoral;
+    border-radius: 4px;
+}
+
+.tabela {
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+.tabela th, .tabela td {
+    border: 1px solid #ddd;
+    padding: 16px;
+}
+
+.tabela th {
+    background-color: #3300ff;
+    color: white;
+    text-align: center;
+}
+
+.tabela td {
+    text-align: center;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Contato</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="titulo">
+        <h1>Fale Conosco!</h1>
+    </div>
+
+    <form class="formulario">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" required placeholder="Seu nome">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required placeholder="seu@email.com">
+
+        <label for="assunto">Assunto:</label>
+        <select id="assunto" name="assunto" required>
+            <option value="" disabled selected class="texto_selecione">Selecione...</option>
+            <option value="duvida">Dúvida</option>
+            <option value="sugestao">Sugestão</option>
+            <option value="reclamacao">Reclamação</option>
+        </select>
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" required placeholder="Digite sua mensagem..."></textarea>
+        
+        <button type="submit" class="botao-enviar">Enviar Mensagem</button>
+    </form>
+</body>
+
+</html>

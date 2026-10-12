@@ -1,0 +1,39 @@
+.body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: lightblue;
+    margin: 0;
+    padding: 20px;
+
+}
+
+.titulo {
+    color: #111827;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size:xx-large;
+    font-weight: bold;
+    display: flex;
+
+}
+
+.galeria {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.imagem {
+    width: 80%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+
+}
+
+.imagem:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,52 @@
+
+.titulo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.formulario {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 300px;
+    margin: 0 auto;
+    grid-gap: 10px;
+
+}
+
+.formulario label {
+    margin-top: 10px;
+    font-weight: bold;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.formulario input,
+.formulario textarea {
+    margin-top: 5px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.botao-enviar {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #0008fb;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+      
+}
+
+
+
+.botao-enviar:hover {
+    background-color: #0d6bf7;
+}
+
+.texto_selecione {
+    color: #999;
+    opacity: 0.6;
+}
